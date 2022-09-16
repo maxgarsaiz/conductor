@@ -12,6 +12,7 @@ plugins {
 
 repositories{
     maven { url "https://mvnrepository.com/artifact" }
+    flatDir { dirs "libs" }
 }
 
 dependencies {
